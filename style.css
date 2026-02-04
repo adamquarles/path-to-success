@@ -70,16 +70,18 @@ body {
 }
 
 main {
-    display: flexbox;
+    display: grid;
     max-width: 450px;
     background-color: var(--purple);
+    margin: 0 auto;
 }
 
 h1 {
-    margin-left: 15px;
+    text-align: center;
     font-family: "Kavoon";
     font-size: 3em;
     color: var(--white);
+    margin: auto;
 }
 
 nav h2 {
@@ -87,13 +89,16 @@ nav h2 {
     font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
-    color: black;
+    color: var(--dark-gray);
 }
 
 h2 {
     font-family: "Kavoon";
     font-size: 2em;
     color: var(--white);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 h3 {
@@ -101,6 +106,9 @@ h3 {
     font-size: 1.5em;
     color: var(--yellow);
     font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 h4 {
@@ -112,6 +120,7 @@ h4 {
 
 p {
     font-family: "Inter";
+    color: var(--dark-gray);
 }
 
 a {
@@ -121,27 +130,35 @@ a {
 }
 
 header {
+    display: grid;
     background-color: var(--purple);
     max-width: 450px;
+    margin: 0 auto;
+    height: 125px;
+}
+
+header p {
+    text-align: center;
+    color: var(--white);
 }
 
 nav {
     text-align: center;
     max-width: 450px;
     background-color: var(--yellow);
-}
-
-nav ul {
-
+    padding-bottom: 10px;
 }
 
 nav li {
-    text-align: center;
-    max-width: 425px;
+    display: grid;
+    align-items: center;
+    max-width: 420px;
     color: var(--purple);
     font-weight: bold;
     background-color: var(--white);
-    margin-top: 10px;
+    margin: 10px auto;
+    height: 50px;
+    text-transform: uppercase;
 }
 
 table {
@@ -149,6 +166,25 @@ table {
 }
 
 #personal-development {
+    margin: 15px auto;
     background-color: white;
-    max-width: 425px;
+    max-width: 415px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#personal-development h4 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#personal-development p {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+#personal-development img {
+    margin-left: 20px;
 }
