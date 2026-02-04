@@ -391,3 +391,73 @@ table {
 #options {
     background-color: var(--white);
 }
+
+#pricing {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+table {
+    border: 2px solid var(--yellow);
+    max-width: 350px;
+    margin: auto;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--yellow);
+    padding: 15px;
+}
+
+td {
+    border: 2px solid var(--yellow);
+    background-color: white;
+    padding: 15px;
+}
+
+#first-step {
+    display: grid;
+    align-items: center;
+    max-width: 450px;
+    background-color: var(--pink);
+}
+
+#first-step p {
+    color: white;
+    line-height: 1.5;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#first-step button {
+    display: grid;
+    margin: 0 auto;
+    background-color: white;
+    width: 380px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Inter";
+    height: 65px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 450px;
+    height: 125px;
+    background-color: var(--purple);
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    color: var(--white);
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
