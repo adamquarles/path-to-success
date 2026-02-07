@@ -145,6 +145,7 @@ header {
 header p {
     text-align: center;
     color: var(--white);
+    font-style: italic;
 }
 
 nav {
@@ -374,6 +375,7 @@ table {
     border-radius: 10px;
     margin-top: 15px;
     font-weight: bold;
+    font-size: 1.15em;
 }
 
 #approach {
@@ -432,7 +434,7 @@ td {
 }
 
 #first-step button {
-    display: grid;
+    display: flex;
     margin: 0 auto;
     background-color: white;
     width: 380px;
@@ -440,6 +442,14 @@ td {
     margin-bottom: 10px;
     font-family: "Inter";
     height: 65px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px black;
+    border: 0px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 1.15em;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
